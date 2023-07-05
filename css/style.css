@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bannerBgImage {
+    height: 100dvh;
+    background:url("../images/rog1.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle {
+    font-size: 4rem;
+}
+.bannerDesc {
+    font-size: 2rem;
+}
+
+.bannerBgImg1{
+    height: 100v;
+    background: url("../images/IMG2.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerBgImg2{
+    height: 100v;
+    background: url("../images/IMG3.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerBgImg3{
+    height: 100v;
+    background: url("../images/IMG4.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.card{
+    cursor: pointer;
+
+}
+.card:hover{
+    background-color: #d87093;
+    border: 2px solid #9acd32;
+}
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+}
+
+.card-img-top {
+    height: 50vh;
+}
+
